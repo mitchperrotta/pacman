@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.row{
+    height: 20px;
+}
+.row div{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.brick{
+    background-color: blue;
+}
+.blank{
+    background-color: black;
+}
+.coin{
+    background: url('images/coin.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200%;
+    background-color: black;
+}
+.cherry{
+    background: url('images/cherry.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
+#pacman{
+    background: url(images/pacman_right.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    transform: rotate(0deg);
+    background-color: black;
+}
+#score{
+    border: 2px solid white;
+    width: 100px;
+    height: 30px;
+    color: white;
+    padding: 5px;
+}
+#ghost0{
+    background: url(images/ghost.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+#ghost1{
+    background: url(images/pinky.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+#ghost2{
+    background: url(images/red.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+#ghost3{
+    background: url(images/yellow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+#lives{
+    border: 2px solid white;
+    width: 100px;
+    height: 30px;
+    color: white;
+    padding: 5px;
+}
+#timer{
+    border: 2px solid white;
+    width: 100px;
+    height: 30px;
+    color: white;
+    padding: 5px;
+}
